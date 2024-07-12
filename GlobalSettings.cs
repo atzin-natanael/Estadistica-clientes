@@ -15,6 +15,7 @@ namespace Clientes
         public string User { get; set; }
         public string Pw { get; set; }
         public List<string> Config { get; set; }
+        public string filePath {  get; set; }
 
         private GlobalSettings()
         {
